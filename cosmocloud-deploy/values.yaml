@@ -1,0 +1,10 @@
+backend:
+  image: "shreybatra/sample-backend"
+  redis_uri: "redis://redis-svc:6379"
+
+frontend:
+  image: "shreybatra/sample-frontend"
+  backend_url: "http://backend-svc:8000"
+
+redis:
+  image: "redis"
