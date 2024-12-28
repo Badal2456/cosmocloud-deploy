@@ -1,4 +1,4 @@
-# Helm Chart for Cosmocloud Deploy
+# Helm Chart Deployment
 
 ## Project Overview
 This project involves creating a Helm chart to deploy a backend, frontend, and Redis DB on AWS EKS. The services are deployed as Deployments with 1 replica each, and the necessary environment variables are passed during deployment.
